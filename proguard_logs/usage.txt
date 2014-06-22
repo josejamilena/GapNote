@@ -1,0 +1,247 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.molecularts.BuildConfig
+com.molecularts.R
+com.molecularts.R$attr
+com.molecularts.R$drawable
+com.molecularts.R$layout
+com.molecularts.R$string
+com.molecularts.R$xml
+com.phonegap.api.IPlugin
+com.phonegap.api.LOG
+com.phonegap.api.PhonegapActivity
+com.phonegap.api.Plugin
+com.phonegap.api.PluginManager
+com.phonegap.api.PluginResult
+org.apache.commons.codec.BinaryDecoder
+org.apache.commons.codec.BinaryEncoder
+org.apache.commons.codec.CharEncoding
+org.apache.commons.codec.Charsets
+org.apache.commons.codec.Decoder
+org.apache.commons.codec.DecoderException
+org.apache.commons.codec.Encoder
+org.apache.commons.codec.EncoderException
+org.apache.commons.codec.StringDecoder
+org.apache.commons.codec.StringEncoder
+org.apache.commons.codec.StringEncoderComparator
+org.apache.commons.codec.binary.Base32
+org.apache.commons.codec.binary.Base32InputStream
+org.apache.commons.codec.binary.Base32OutputStream
+org.apache.commons.codec.binary.Base64
+org.apache.commons.codec.binary.Base64InputStream
+org.apache.commons.codec.binary.Base64OutputStream
+org.apache.commons.codec.binary.BaseNCodec
+org.apache.commons.codec.binary.BaseNCodec$Context
+org.apache.commons.codec.binary.BaseNCodecInputStream
+org.apache.commons.codec.binary.BaseNCodecOutputStream
+org.apache.commons.codec.binary.BinaryCodec
+org.apache.commons.codec.binary.Hex
+org.apache.commons.codec.binary.StringUtils
+org.apache.commons.codec.digest.B64
+org.apache.commons.codec.digest.Crypt
+org.apache.commons.codec.digest.DigestUtils
+org.apache.commons.codec.digest.Md5Crypt
+org.apache.commons.codec.digest.MessageDigestAlgorithms
+org.apache.commons.codec.digest.Sha2Crypt
+org.apache.commons.codec.digest.UnixCrypt
+org.apache.commons.codec.language.AbstractCaverphone
+org.apache.commons.codec.language.Caverphone
+org.apache.commons.codec.language.Caverphone1
+org.apache.commons.codec.language.Caverphone2
+org.apache.commons.codec.language.ColognePhonetic
+org.apache.commons.codec.language.ColognePhonetic$CologneBuffer
+org.apache.commons.codec.language.ColognePhonetic$CologneInputBuffer
+org.apache.commons.codec.language.ColognePhonetic$CologneOutputBuffer
+org.apache.commons.codec.language.DoubleMetaphone
+org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult
+org.apache.commons.codec.language.MatchRatingApproachEncoder
+org.apache.commons.codec.language.Metaphone
+org.apache.commons.codec.language.Nysiis
+org.apache.commons.codec.language.RefinedSoundex
+org.apache.commons.codec.language.Soundex
+org.apache.commons.codec.language.SoundexUtils
+org.apache.commons.codec.language.bm.BeiderMorseEncoder
+org.apache.commons.codec.language.bm.Lang
+org.apache.commons.codec.language.bm.Lang$1
+org.apache.commons.codec.language.bm.Lang$LangRule
+org.apache.commons.codec.language.bm.Languages
+org.apache.commons.codec.language.bm.Languages$1
+org.apache.commons.codec.language.bm.Languages$2
+org.apache.commons.codec.language.bm.Languages$LanguageSet
+org.apache.commons.codec.language.bm.Languages$SomeLanguages
+org.apache.commons.codec.language.bm.NameType
+org.apache.commons.codec.language.bm.PhoneticEngine
+org.apache.commons.codec.language.bm.PhoneticEngine$1
+org.apache.commons.codec.language.bm.PhoneticEngine$PhonemeBuilder
+org.apache.commons.codec.language.bm.PhoneticEngine$RulesApplication
+org.apache.commons.codec.language.bm.ResourceConstants
+org.apache.commons.codec.language.bm.Rule
+org.apache.commons.codec.language.bm.Rule$1
+org.apache.commons.codec.language.bm.Rule$10
+org.apache.commons.codec.language.bm.Rule$2
+org.apache.commons.codec.language.bm.Rule$3
+org.apache.commons.codec.language.bm.Rule$4
+org.apache.commons.codec.language.bm.Rule$5
+org.apache.commons.codec.language.bm.Rule$6
+org.apache.commons.codec.language.bm.Rule$7
+org.apache.commons.codec.language.bm.Rule$8
+org.apache.commons.codec.language.bm.Rule$9
+org.apache.commons.codec.language.bm.Rule$Phoneme
+org.apache.commons.codec.language.bm.Rule$Phoneme$1
+org.apache.commons.codec.language.bm.Rule$PhonemeExpr
+org.apache.commons.codec.language.bm.Rule$PhonemeList
+org.apache.commons.codec.language.bm.Rule$RPattern
+org.apache.commons.codec.language.bm.RuleType
+org.apache.commons.codec.net.BCodec
+org.apache.commons.codec.net.QCodec
+org.apache.commons.codec.net.QuotedPrintableCodec
+org.apache.commons.codec.net.RFC1522Codec
+org.apache.commons.codec.net.URLCodec
+org.apache.commons.codec.net.Utils
+org.apache.cordova.AccelListener
+org.apache.cordova.App
+org.apache.cordova.AudioHandler
+org.apache.cordova.AudioPlayer
+org.apache.cordova.AuthenticationToken:
+    44:45:public void setUserName(java.lang.String)
+    63:64:public void setPassword(java.lang.String)
+org.apache.cordova.BatteryListener
+org.apache.cordova.BatteryListener$1
+org.apache.cordova.BuildConfig
+org.apache.cordova.CallbackServer:
+    private static final java.lang.String LOG_TAG
+    static final java.lang.String digits
+    317:320:public int getSize()
+org.apache.cordova.CameraLauncher
+org.apache.cordova.Capture
+org.apache.cordova.CompassListener
+org.apache.cordova.ContactAccessor
+org.apache.cordova.ContactAccessor$WhereOptions
+org.apache.cordova.ContactAccessorSdk5
+org.apache.cordova.ContactManager
+org.apache.cordova.CordovaWebViewClient:
+    private static final java.lang.String TAG
+org.apache.cordova.Device
+org.apache.cordova.Device$1
+org.apache.cordova.DirectoryManager
+org.apache.cordova.DroidGap:
+    protected android.app.Dialog splashDialog
+    229:238:public void setAuthenticationToken(org.apache.cordova.AuthenticationToken,java.lang.String,java.lang.String)
+    250:250:public org.apache.cordova.AuthenticationToken removeAuthenticationToken(java.lang.String,java.lang.String)
+    295:296:public void clearAuthenticationTokens()
+    580:587:public void loadUrl(java.lang.String,int)
+    599:615:private void loadUrlIntoView(java.lang.String,int)
+    621:622:public void cancelLoadUrl()
+    628:632:public void clearCache()
+    748:756:public double getDoubleProperty(java.lang.String,double)
+    766:767:public void setBooleanProperty(java.lang.String,boolean)
+    776:777:public void setIntegerProperty(java.lang.String,int)
+    786:787:public void setStringProperty(java.lang.String,java.lang.String)
+    796:797:public void setDoubleProperty(java.lang.String,double)
+    933:936:public void addService(java.lang.String,java.lang.String)
+    1119:1129:public void startActivityForResult(org.apache.cordova.api.IPlugin,android.content.Intent,int)
+    1150:1151:public void setActivityResultCallback(org.apache.cordova.api.IPlugin)
+    1394:1394:public android.content.Context getContext()
+    1399:1400:public void bindBackButton(boolean)
+    1404:1404:public boolean isBackButtonBound()
+    1413:1417:public void removeSplashScreen()
+    1424:1449:protected void showSplashScreen(int)
+org.apache.cordova.DroidGap$6
+org.apache.cordova.ExifHelper
+org.apache.cordova.FileTransfer
+org.apache.cordova.FileTransfer$1
+org.apache.cordova.FileTransfer$2
+org.apache.cordova.FileUploadResult
+org.apache.cordova.FileUtils
+org.apache.cordova.GeoBroker
+org.apache.cordova.GeoListener
+org.apache.cordova.GpsListener
+org.apache.cordova.HttpHandler
+org.apache.cordova.LinearLayoutSoftKeyboardDetect:
+    private static final java.lang.String TAG
+org.apache.cordova.NetworkListener
+org.apache.cordova.NetworkManager
+org.apache.cordova.NetworkManager$1
+org.apache.cordova.Notification
+org.apache.cordova.Notification$1
+org.apache.cordova.Notification$1$1
+org.apache.cordova.Notification$2
+org.apache.cordova.Notification$2$1
+org.apache.cordova.Notification$2$2
+org.apache.cordova.Notification$2$3
+org.apache.cordova.Notification$3
+org.apache.cordova.Notification$3$1
+org.apache.cordova.Notification$4
+org.apache.cordova.Notification$4$1
+org.apache.cordova.PreferenceSet:
+    38:38:public int size()
+    42:43:public void clear()
+org.apache.cordova.SplashScreen
+org.apache.cordova.StandAlone
+org.apache.cordova.Storage
+org.apache.cordova.TempListener
+org.apache.cordova.api.CordovaInterface:
+    public abstract void addService(java.lang.String,java.lang.String)
+    public abstract void startActivityForResult(org.apache.cordova.api.IPlugin,android.content.Intent,int)
+    public abstract void startActivity(android.content.Intent)
+    public abstract void setActivityResultCallback(org.apache.cordova.api.IPlugin)
+    public abstract void loadUrl(java.lang.String)
+    public abstract void postMessage(java.lang.String,java.lang.Object)
+    public abstract java.lang.Object getSystemService(java.lang.String)
+    public abstract android.content.Context getContext()
+    public abstract android.content.Context getBaseContext()
+    public abstract android.content.Intent registerReceiver(android.content.BroadcastReceiver,android.content.IntentFilter)
+    public abstract android.content.ContentResolver getContentResolver()
+    public abstract void unregisterReceiver(android.content.BroadcastReceiver)
+    public abstract android.database.Cursor managedQuery(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+    public abstract void runOnUiThread(java.lang.Runnable)
+    public abstract android.content.res.AssetManager getAssets()
+    public abstract void clearCache()
+    public abstract void clearHistory()
+    public abstract boolean backHistory()
+    public abstract void bindBackButton(boolean)
+    public abstract boolean isBackButtonBound()
+    public abstract void cancelLoadUrl()
+    public abstract void showWebPage(java.lang.String,boolean,boolean,java.util.HashMap)
+    public abstract android.content.Context getApplicationContext()
+    public abstract boolean isUrlWhiteListed(java.lang.String)
+org.apache.cordova.api.LOG:
+    public static final int VERBOSE
+    public static final int DEBUG
+    public static final int INFO
+    public static final int WARN
+    public static final int ERROR
+    29:29:public LOG()
+    46:48:public static void setLogLevel(int)
+    71:71:public static boolean isLoggable(int)
+    132:133:public static void v(java.lang.String,java.lang.String,java.lang.Throwable)
+    143:144:public static void d(java.lang.String,java.lang.String,java.lang.Throwable)
+    154:155:public static void i(java.lang.String,java.lang.String,java.lang.Throwable)
+    165:166:public static void w(java.lang.String,java.lang.String,java.lang.Throwable)
+    220:221:public static varargs void w(java.lang.String,java.lang.String,java.lang.Object[])
+    231:232:public static varargs void e(java.lang.String,java.lang.String,java.lang.Object[])
+org.apache.cordova.api.Plugin:
+    public java.lang.String id
+    public abstract org.apache.cordova.api.PluginResult execute(java.lang.String,org.json.JSONArray,java.lang.String)
+    144:145:public void sendJavascript(java.lang.String)
+    158:159:public void success(org.apache.cordova.api.PluginResult,java.lang.String)
+    168:169:public void success(org.json.JSONObject,java.lang.String)
+    178:179:public void success(java.lang.String,java.lang.String)
+    188:189:public void error(org.apache.cordova.api.PluginResult,java.lang.String)
+    198:199:public void error(org.json.JSONObject,java.lang.String)
+    208:209:public void error(java.lang.String,java.lang.String)
+org.apache.cordova.api.PluginManager:
+    262:264:public void addService(java.lang.String,java.lang.String)
+org.apache.cordova.api.PluginResult:
+    41:44:public PluginResult(org.apache.cordova.api.PluginResult$Status,org.json.JSONArray)
+    46:49:public PluginResult(org.apache.cordova.api.PluginResult$Status,org.json.JSONObject)
+    51:54:public PluginResult(org.apache.cordova.api.PluginResult$Status,int)
+    56:59:public PluginResult(org.apache.cordova.api.PluginResult$Status,float)
+    61:64:public PluginResult(org.apache.cordova.api.PluginResult$Status,boolean)
+    67:68:public void setKeepCallback(boolean)
+    75:75:public java.lang.String getMessage()
+org.apache.cordova.file.EncodingException
+org.apache.cordova.file.FileExistsException
+org.apache.cordova.file.InvalidModificationException
+org.apache.cordova.file.NoModificationAllowedException
+org.apache.cordova.file.TypeMismatchException

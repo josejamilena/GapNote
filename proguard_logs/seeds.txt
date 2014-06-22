@@ -1,0 +1,15 @@
+com.molecularts.GapNoteActivity
+com.molecularts.GapNoteActivity: GapNoteActivity()
+com.molecularts.R$drawable: int ic_launcher
+com.molecularts.R$layout: int main
+com.molecularts.R$string: int app_name
+com.molecularts.R$string: int hello
+com.molecularts.R$xml: int cordova
+com.molecularts.R$xml: int plugins
+org.apache.commons.codec.language.bm.NameType: org.apache.commons.codec.language.bm.NameType[] values()
+org.apache.commons.codec.language.bm.NameType: org.apache.commons.codec.language.bm.NameType valueOf(java.lang.String)
+org.apache.commons.codec.language.bm.RuleType: org.apache.commons.codec.language.bm.RuleType[] values()
+org.apache.commons.codec.language.bm.RuleType: org.apache.commons.codec.language.bm.RuleType valueOf(java.lang.String)
+org.apache.cordova.DroidGap: DroidGap()
+org.apache.cordova.api.PluginResult$Status: org.apache.cordova.api.PluginResult$Status[] values()
+org.apache.cordova.api.PluginResult$Status: org.apache.cordova.api.PluginResult$Status valueOf(java.lang.String)

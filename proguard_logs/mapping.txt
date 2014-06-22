@@ -1,0 +1,315 @@
+com.molecularts.GapNoteActivity -> com.molecularts.GapNoteActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+org.apache.cordova.AuthenticationToken -> a.a.a.a:
+    java.lang.String userName -> a
+    java.lang.String password -> b
+    java.lang.String getUserName() -> a
+    java.lang.String getPassword() -> b
+org.apache.cordova.CallbackServer -> a.a.a.b:
+    java.util.LinkedList javascript -> a
+    int port -> b
+    java.lang.Thread serverThread -> c
+    boolean active -> d
+    boolean empty -> e
+    boolean usePolling -> f
+    java.lang.String token -> g
+    void init(java.lang.String) -> a
+    void reinit(java.lang.String) -> b
+    boolean usePolling() -> a
+    int getPort() -> b
+    java.lang.String getToken() -> c
+    void startServer() -> d
+    void restartServer() -> e
+    void run() -> run
+    void stopServer() -> f
+    void destroy() -> g
+    java.lang.String getJavascript() -> h
+    void sendJavascript(java.lang.String) -> c
+    java.lang.String encode(java.lang.String,java.lang.String) -> a
+    void convert(java.lang.String,java.lang.StringBuilder,java.lang.String) -> a
+org.apache.cordova.CordovaChromeClient -> a.a.a.c:
+    java.lang.String TAG -> a
+    long MAX_QUOTA -> b
+    org.apache.cordova.DroidGap ctx -> c
+    boolean onJsAlert(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult) -> onJsAlert
+    boolean onJsConfirm(android.webkit.WebView,java.lang.String,java.lang.String,android.webkit.JsResult) -> onJsConfirm
+    boolean onJsPrompt(android.webkit.WebView,java.lang.String,java.lang.String,java.lang.String,android.webkit.JsPromptResult) -> onJsPrompt
+    void onExceededDatabaseQuota(java.lang.String,java.lang.String,long,long,long,android.webkit.WebStorage$QuotaUpdater) -> onExceededDatabaseQuota
+    void onConsoleMessage(java.lang.String,int,java.lang.String) -> onConsoleMessage
+    boolean onConsoleMessage(android.webkit.ConsoleMessage) -> onConsoleMessage
+    void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback) -> onGeolocationPermissionsShowPrompt
+org.apache.cordova.CordovaChromeClient$1 -> a.a.a.d:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.apache.cordova.CordovaChromeClient$2 -> a.a.a.e:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    void onCancel(android.content.DialogInterface) -> onCancel
+org.apache.cordova.CordovaChromeClient$3 -> a.a.a.f:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent) -> onKey
+org.apache.cordova.CordovaChromeClient$4 -> a.a.a.g:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.apache.cordova.CordovaChromeClient$5 -> a.a.a.h:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.apache.cordova.CordovaChromeClient$6 -> a.a.a.i:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    void onCancel(android.content.DialogInterface) -> onCancel
+org.apache.cordova.CordovaChromeClient$7 -> a.a.a.j:
+    android.webkit.JsResult val$result -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent) -> onKey
+org.apache.cordova.CordovaChromeClient$8 -> a.a.a.k:
+    android.widget.EditText val$input -> a
+    android.webkit.JsPromptResult val$res -> b
+    org.apache.cordova.CordovaChromeClient this$0 -> c
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.apache.cordova.CordovaChromeClient$9 -> a.a.a.l:
+    android.webkit.JsPromptResult val$res -> a
+    org.apache.cordova.CordovaChromeClient this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.apache.cordova.CordovaWebViewClient -> a.a.a.m:
+    org.apache.cordova.DroidGap ctx -> a
+    boolean doClearHistory -> b
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onReceivedHttpAuthRequest(android.webkit.WebView,android.webkit.HttpAuthHandler,java.lang.String,java.lang.String) -> onReceivedHttpAuthRequest
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+    void onReceivedSslError(android.webkit.WebView,android.webkit.SslErrorHandler,android.net.http.SslError) -> onReceivedSslError
+    void doUpdateVisitedHistory(android.webkit.WebView,java.lang.String,boolean) -> doUpdateVisitedHistory
+org.apache.cordova.CordovaWebViewClient$1 -> a.a.a.n:
+    org.apache.cordova.CordovaWebViewClient this$0 -> a
+    void run() -> run
+org.apache.cordova.CordovaWebViewClient$1$1 -> a.a.a.o:
+    org.apache.cordova.CordovaWebViewClient$1 this$1 -> a
+    void run() -> run
+org.apache.cordova.DroidGap -> a.a.a.p:
+    java.lang.String TAG -> a
+    android.webkit.WebView appView -> b
+    android.webkit.WebViewClient webViewClient -> c
+    java.util.ArrayList whiteList -> r
+    java.util.HashMap whiteListCache -> s
+    android.widget.LinearLayout root -> d
+    boolean bound -> e
+    org.apache.cordova.CallbackServer callbackServer -> f
+    org.apache.cordova.api.PluginManager pluginManager -> g
+    boolean cancelLoadUrl -> h
+    android.app.ProgressDialog spinnerDialog -> i
+    java.lang.String url -> t
+    java.util.Stack urls -> u
+    java.lang.String initUrl -> v
+    int ACTIVITY_STARTING -> w
+    int ACTIVITY_RUNNING -> x
+    int ACTIVITY_EXITING -> y
+    int activityState -> z
+    java.lang.String baseUrl -> j
+    org.apache.cordova.api.IPlugin activityResultCallback -> k
+    boolean activityResultKeepRunning -> l
+    int loadUrlTimeout -> m
+    int backgroundColor -> A
+    java.util.Hashtable authenticationTokens -> B
+    int splashscreen -> n
+    int loadUrlTimeoutValue -> o
+    boolean keepRunning -> p
+    org.apache.cordova.PreferenceSet preferences -> q
+    org.apache.cordova.AuthenticationToken getAuthenticationToken(java.lang.String,java.lang.String) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void init(android.webkit.WebView,android.webkit.WebViewClient,android.webkit.WebChromeClient) -> a
+    void setWebViewClient(android.webkit.WebView,android.webkit.WebViewClient) -> a
+    void handleActivityParameters() -> g
+    void loadUrl(java.lang.String) -> a
+    void loadUrlIntoView(java.lang.String) -> e
+    void clearHistory() -> b
+    boolean backHistory() -> c
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    boolean getBooleanProperty(java.lang.String,boolean) -> a
+    int getIntegerProperty(java.lang.String,int) -> a
+    java.lang.String getStringProperty(java.lang.String,java.lang.String) -> b
+    void onPause() -> onPause
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+    void postMessage(java.lang.String,java.lang.Object) -> a
+    void sendJavascript(java.lang.String) -> b
+    void showWebPage(java.lang.String,boolean,boolean,java.util.HashMap) -> a
+    void spinnerStart(java.lang.String,java.lang.String) -> c
+    void spinnerStop() -> d
+    void endActivity() -> e
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void startActivityForResult(android.content.Intent,int) -> startActivityForResult
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onReceivedError(int,java.lang.String,java.lang.String) -> a
+    void displayError(java.lang.String,java.lang.String,java.lang.String,boolean) -> a
+    void loadConfiguration() -> h
+    void addWhiteListEntry(java.lang.String,boolean) -> b
+    boolean isUrlWhiteListed(java.lang.String) -> c
+    java.lang.String peekAtUrlStack() -> f
+    void pushUrl(java.lang.String) -> d
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void access$000(org.apache.cordova.DroidGap) -> a
+    java.util.Stack access$100(org.apache.cordova.DroidGap) -> b
+org.apache.cordova.DroidGap$1 -> a.a.a.q:
+    org.apache.cordova.DroidGap val$me -> a
+    java.lang.String val$url -> b
+    org.apache.cordova.DroidGap this$0 -> c
+    void run() -> run
+org.apache.cordova.DroidGap$1$1 -> a.a.a.r:
+    int val$currentLoadUrlTimeout -> a
+    org.apache.cordova.DroidGap$1 this$1 -> b
+    void run() -> run
+org.apache.cordova.DroidGap$2 -> a.a.a.s:
+    org.apache.cordova.DroidGap val$me -> a
+    org.apache.cordova.DroidGap this$0 -> b
+    void onCancel(android.content.DialogInterface) -> onCancel
+org.apache.cordova.DroidGap$3 -> a.a.a.t:
+    org.apache.cordova.DroidGap val$me -> a
+    java.lang.String val$errorUrl -> b
+    org.apache.cordova.DroidGap this$0 -> c
+    void run() -> run
+org.apache.cordova.DroidGap$4 -> a.a.a.u:
+    boolean val$exit -> a
+    org.apache.cordova.DroidGap val$me -> b
+    java.lang.String val$description -> c
+    java.lang.String val$failingUrl -> d
+    org.apache.cordova.DroidGap this$0 -> e
+    void run() -> run
+org.apache.cordova.DroidGap$5 -> a.a.a.v:
+    org.apache.cordova.DroidGap val$me -> a
+    java.lang.String val$message -> b
+    java.lang.String val$title -> c
+    java.lang.String val$button -> d
+    boolean val$exit -> e
+    org.apache.cordova.DroidGap this$0 -> f
+    void run() -> run
+org.apache.cordova.DroidGap$5$1 -> a.a.a.w:
+    org.apache.cordova.DroidGap$5 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.apache.cordova.LinearLayoutSoftKeyboardDetect -> a.a.a.x:
+    int oldHeight -> a
+    int oldWidth -> b
+    int screenWidth -> c
+    int screenHeight -> d
+    org.apache.cordova.DroidGap app -> e
+    void onMeasure(int,int) -> onMeasure
+org.apache.cordova.PreferenceNode -> a.a.a.y:
+    java.lang.String name -> a
+    java.lang.String value -> b
+    boolean readonly -> c
+org.apache.cordova.PreferenceSet -> a.a.a.z:
+    java.util.HashSet innerSet -> a
+    void add(org.apache.cordova.PreferenceNode) -> a
+    java.lang.String pref(java.lang.String) -> a
+    boolean prefMatches(java.lang.String,java.lang.String) -> a
+org.apache.cordova.api.CordovaInterface -> a.a.a.a.a:
+    void sendJavascript(java.lang.String) -> b
+    android.content.res.Resources getResources() -> getResources
+    java.lang.String getPackageName() -> getPackageName
+org.apache.cordova.api.IPlugin -> a.a.a.a.b:
+    org.apache.cordova.api.PluginResult execute(java.lang.String,org.json.JSONArray,java.lang.String) -> a
+    boolean isSynch(java.lang.String) -> a
+    void setContext(org.apache.cordova.api.CordovaInterface) -> a
+    void setView(android.webkit.WebView) -> a
+    void onPause(boolean) -> a
+    void onResume(boolean) -> b
+    void onNewIntent(android.content.Intent) -> a
+    void onDestroy() -> a
+    void onMessage(java.lang.String,java.lang.Object) -> a
+    void onActivityResult(int,int,android.content.Intent) -> a
+    boolean onOverrideUrlLoading(java.lang.String) -> b
+org.apache.cordova.api.LOG -> a.a.a.a.c:
+    int LOGLEVEL -> a
+    void setLogLevel(java.lang.String) -> a
+    void v(java.lang.String,java.lang.String) -> a
+    void d(java.lang.String,java.lang.String) -> b
+    void i(java.lang.String,java.lang.String) -> c
+    void w(java.lang.String,java.lang.String) -> d
+    void e(java.lang.String,java.lang.String) -> e
+    void e(java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    void v(java.lang.String,java.lang.String,java.lang.Object[]) -> a
+    void d(java.lang.String,java.lang.String,java.lang.Object[]) -> b
+    void i(java.lang.String,java.lang.String,java.lang.Object[]) -> c
+org.apache.cordova.api.Plugin -> a.a.a.a.d:
+    android.webkit.WebView webView -> a
+    org.apache.cordova.api.CordovaInterface ctx -> b
+    boolean isSynch(java.lang.String) -> a
+    void setContext(org.apache.cordova.api.CordovaInterface) -> a
+    void setView(android.webkit.WebView) -> a
+    void onPause(boolean) -> a
+    void onResume(boolean) -> b
+    void onNewIntent(android.content.Intent) -> a
+    void onDestroy() -> a
+    void onMessage(java.lang.String,java.lang.Object) -> a
+    void onActivityResult(int,int,android.content.Intent) -> a
+    boolean onOverrideUrlLoading(java.lang.String) -> b
+org.apache.cordova.api.PluginEntry -> a.a.a.a.e:
+    java.lang.String service -> a
+    java.lang.String pluginClass -> b
+    org.apache.cordova.api.IPlugin plugin -> c
+    boolean onload -> d
+    org.apache.cordova.api.IPlugin createPlugin(android.webkit.WebView,org.apache.cordova.api.CordovaInterface) -> a
+    java.lang.Class getClassByName(java.lang.String) -> a
+    boolean isCordovaPlugin(java.lang.Class) -> a
+org.apache.cordova.api.PluginManager -> a.a.a.a.f:
+    java.lang.String TAG -> b
+    java.util.HashMap entries -> c
+    org.apache.cordova.api.CordovaInterface ctx -> d
+    android.webkit.WebView app -> e
+    boolean firstRun -> f
+    java.util.HashMap urlMap -> a
+    void init() -> a
+    void loadPlugins() -> b
+    void clearPluginObjects() -> c
+    void startupPlugins() -> d
+    java.lang.String exec(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean) -> a
+    org.apache.cordova.api.IPlugin getPlugin(java.lang.String) -> b
+    void addService(org.apache.cordova.api.PluginEntry) -> a
+    void onPause(boolean) -> a
+    void onResume(boolean) -> b
+    void onDestroy() -> e
+    void postMessage(java.lang.String,java.lang.Object) -> a
+    void onNewIntent(android.content.Intent) -> a
+    boolean onOverrideUrlLoading(java.lang.String) -> a
+    void pluginConfigurationMissing() -> f
+org.apache.cordova.api.PluginManager$1 -> a.a.a.a.g:
+    org.apache.cordova.api.IPlugin val$plugin -> a
+    java.lang.String val$action -> b
+    org.json.JSONArray val$args -> c
+    java.lang.String val$callbackId -> d
+    org.apache.cordova.api.CordovaInterface val$ctx -> e
+    org.apache.cordova.api.PluginManager this$0 -> f
+    void run() -> run
+org.apache.cordova.api.PluginResult -> a.a.a.a.h:
+    int status -> b
+    java.lang.String message -> c
+    boolean keepCallback -> d
+    java.lang.String[] StatusMessages -> a
+    int getStatus() -> a
+    boolean getKeepCallback() -> b
+    java.lang.String getJSONString() -> c
+    java.lang.String toSuccessCallbackString(java.lang.String) -> a
+    java.lang.String toErrorCallbackString(java.lang.String) -> b
+org.apache.cordova.api.PluginResult$Status -> a.a.a.a.i:
+    org.apache.cordova.api.PluginResult$Status NO_RESULT -> a
+    org.apache.cordova.api.PluginResult$Status OK -> b
+    org.apache.cordova.api.PluginResult$Status CLASS_NOT_FOUND_EXCEPTION -> c
+    org.apache.cordova.api.PluginResult$Status ILLEGAL_ACCESS_EXCEPTION -> d
+    org.apache.cordova.api.PluginResult$Status INSTANTIATION_EXCEPTION -> e
+    org.apache.cordova.api.PluginResult$Status MALFORMED_URL_EXCEPTION -> f
+    org.apache.cordova.api.PluginResult$Status IO_EXCEPTION -> g
+    org.apache.cordova.api.PluginResult$Status INVALID_ACTION -> h
+    org.apache.cordova.api.PluginResult$Status JSON_EXCEPTION -> i
+    org.apache.cordova.api.PluginResult$Status ERROR -> j
+    org.apache.cordova.api.PluginResult$Status[] $VALUES -> k
+    org.apache.cordova.api.PluginResult$Status[] values() -> values
+    org.apache.cordova.api.PluginResult$Status valueOf(java.lang.String) -> valueOf
